@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 from clase_1 import main
 
-
+#funciones
 def lista(conjunto):
     if conjunto!=None:
         return conjunto
